@@ -29,7 +29,7 @@
 		border-radius: 10px;
 		font-family: 'Coda', cursive;
 		position: relative;
-		height: calc(100vh - 120px);
+		height: calc(100vh - 160px);
 		overflow: scroll;
 	}
 
