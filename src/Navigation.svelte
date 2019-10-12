@@ -9,8 +9,8 @@
         z-index: 101;
     }
 
-    nav a {
-        display: inline-block;
+    nav button {
+        font-size: 22px;
     }
 </style>
 

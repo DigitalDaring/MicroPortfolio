@@ -25,6 +25,7 @@ a, button {
 	margin: 5px;
 	font-size: 12px;
 	background-color: #FFF;
+	outline: none;
 }
 
 a::after, button::after {
