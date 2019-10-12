@@ -3,10 +3,12 @@
 
 <style>
     nav {
-        display: flex;
-        align-items: center;
-        justify-self: flex-end;
+        float: right;
         margin-left: auto;
+        position: sticky;
+        top: -8px;
+        margin-top: 6px;
+        display: inline-block;
     }
 
     nav a {

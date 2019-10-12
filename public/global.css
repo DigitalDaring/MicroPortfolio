@@ -24,6 +24,7 @@ a {
 	padding: 5px;
 	margin: 5px;
 	font-size: 12px;
+	background-color: #FFF;
 }
 
 a::after {

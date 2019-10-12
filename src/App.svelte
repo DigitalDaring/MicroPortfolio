@@ -46,15 +46,20 @@
 		color: #FFF;
 		padding-left: 10px;
 		padding: 10px;
+		background-color: #FFF;
+		position: sticky;
+		top: -10px;
 	}
 
 	h1 {
 		color: #000;
 		font-family: 'Coda', cursive;
 		font-size: 18px;
+		display: inline-block;
+	
 	}
 
-	greeting {
+	header {
 		display: flex;
 		flex-direction: row;
 	}
@@ -66,13 +71,11 @@
 		<header style="background-image: url({dithering})">
 			Micro Portfolio
 		</header>
-		<greeting>
-			<h1>My name is Edmund</h1>
-			<Navigation></Navigation>
-		</greeting>
-		
-		<p>The year is 2019, and websites are out of control.</p>
 
+		<h1>My name is Edmund</h1>
+
+		<Navigation></Navigation>
+		
 		<p id="about-me">
 			Hallward glanced round him with a puzzled expression. The room looked as if it had not been lived in for years. A faded Flemish tapestry, a curtained picture, an old Italian cassone, and an almost empty book-case--that was all that it seemed to contain, besides a chair and a table. As Dorian Gray was lighting a half-burned candle that was standing on the mantelshelf, he saw that the whole place was covered with dust and that the carpet was in holes. A mouse ran scuffling behind the wainscoting. There was a damp odour of mildew.
 
