@@ -20,5 +20,4 @@
 <nav>
     <a href="#about-me">About Me</a>
     <a href="#credentials">My Credentials</a>
-    <a href="#adventures">Adventures</a>
 </nav>

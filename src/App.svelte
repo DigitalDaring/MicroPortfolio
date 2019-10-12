@@ -29,7 +29,7 @@
 		border-radius: 10px;
 		font-family: 'Coda', cursive;
 		position: relative;
-		height: calc(100vh - 80px);
+		height: calc(100vh - 120px);
 		overflow: scroll;
 	}
 
@@ -58,7 +58,7 @@
 		font-family: 'Coda', cursive;
 		font-size: 18px;
 		display: inline-block;
-	
+		height: 32px;
 	}
 
 	header {
@@ -66,19 +66,27 @@
 		flex-direction: row;
 		z-index: 101;
 	}
+
+	@media screen and (max-width: 480px) {
+		h1 {
+			font-size: 14px;
+		}
+
+		a {
+			font-size: 12px;
+		}
+	}
 </style>
 
 <canvas id="dithering" width="20px" height="20px" style="display: none"/>
 <div class="outer-border">
 	<main>
-		<header id="about-me" style="background-image: url({dithering})">
+		<header style="background-image: url({dithering})">
 			Micro Portfolio
 		</header>
 
-		<h1>My name is Edmund</h1>
-
+		<h1 id="about-me">My name is Edmund</h1>
 		<Navigation></Navigation>
-
 		<AboutMe></AboutMe>
 
 		<MyCredentials></MyCredentials>
