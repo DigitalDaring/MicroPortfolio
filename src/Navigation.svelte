@@ -5,9 +5,6 @@
     nav {
         float: right;
         margin-left: auto;
-        position: sticky;
-        top: -8px;
-        margin-top: 6px;
         display: inline-block;
         z-index: 101;
     }

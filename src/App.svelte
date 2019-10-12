@@ -51,6 +51,8 @@
 		background-color: #FFF;
 		position: sticky;
 		top: -10px;
+		margin-bottom: 10px;
+		align-items: center;
 	}
 
 	h1 {
@@ -83,12 +85,11 @@
 	<main>
 		<header style="background-image: url({dithering})">
 			Micro Portfolio
+			<Navigation></Navigation>
 		</header>
 
-		<h1 id="about-me">My name is Edmund</h1>
-		<Navigation></Navigation>
+		<h1 id="about-me" >My name is Edmund.&nbsp;&nbsp;This is my micro-portfolio.</h1>
 		<AboutMe></AboutMe>
-
 		<MyCredentials></MyCredentials>
 	</main>
 </div>
